@@ -1,0 +1,117 @@
+/*HOME CSS*/
+
+* {
+	font: 13px helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#all {
+	height: 100%;
+	min-height: 100%;
+	width: 100%;
+	min-width: 100%;
+	position: absolute;
+}
+
+a {
+	padding: 0 15px;
+	margin-top: 5px;
+}
+
+a:link {
+	color: #555;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #555;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#nav {
+	margin-top: 25px;
+	margin-right: 95px;
+	float: right;
+	color: red;
+}
+
+#sin {
+	position: absolute;
+	width: 45px;
+	height: 25px;
+	margin-top: -8px;
+	padding-top: 7px;
+	text-align: center;
+	font-weight: bold;
+	background-color: rgb(67, 135, 253);
+	color: #fff;
+	border-radius: 2px;
+
+}
+
+#main {
+	transform: translatey(175px);
+	width: 600px;
+	margin: 0 auto;
+}
+
+#logo {
+	display: block;
+	margin: 0 auto;
+	width: 375px;
+}
+
+input[type=text] {
+	height: 30px;
+	width: 500px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	color: #555;
+	font-size: 17px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	box-shadow: 2px 2px 10px #777;
+}
+
+input[type=submit] {
+	padding: 5px;
+	margin-top: 15px;
+	background-color: #eee;
+	color: #555;
+	font-weight: bold;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+
+}
+
+.forms {
+	padding: 15px;
+	text-align: center;
+}
+
+#footer {
+	border-top: 1px solid #ddd;
+	background-color: #eee;
+	width: 100%;
+	height: 35px;
+	bottom: 0;
+	position: absolute;
+}
+
+#fl {
+	display: inline-block;
+	position: relative;
+	padding-top: 9px;
+}
+
+#fr {
+	display: inline-block;
+	padding: 0;
+	position: relative;
+	left: 884px;
+}
