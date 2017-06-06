@@ -127,7 +127,7 @@ a:hover, .foot a:hover {
 
 .lsec2 {
 	width: 650px;
-	margin: 5px 0 70px 0;
+	margin: 5px 0 55px 0;
 }
 
 .m-link, .main a {
@@ -188,6 +188,27 @@ a:hover, .foot a:hover {
 	font-weight: bold;
 	line-height: 25px;
 	display: block;
+}
+
+.rating p{
+	position: relative;
+	display: inline-block;
+}
+
+.rating img {
+	height: 15px;
+}
+
+.pages {
+	margin: 0 auto;
+}
+
+.g {
+	vertical-align: baseline;
+}
+
+.pages p {
+	text-align: center;
 }
 /*-----------------------------------MAIN_RIGHT-----*/
 
